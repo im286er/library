@@ -5,3 +5,4 @@ Lib V_1.0.0项目由layui与Tp5共同开发，结合了权限管理，简单的�
 
  + 后台登陆帐号：admin
  + 后台密码：123Eddy,
+ ![image](http://github.com/itmyhome2013/readme_add_pic/raw/master/images/nongshalie.jpg)
