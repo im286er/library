@@ -1,0 +1,85 @@
+{extend name="template/base" /}
+{block name="style"}
+ {load href="__FRAME__/zTree/css/zTreeStyle/zTreeStyle.css"}
+ {load href="__FRAME__/zTree/js/jquery.ztree.core.js"}
+ {load href="__FRAME__/zTree/js/jquery.ztree.excheck.js"}
+{/block}
+{block name="content"}
+<div class="layui-row ">
+    <div class="layui-col-md5">
+          <fieldset class="layui-elem-field">
+            <legend>本角色用户列表</legend>
+            <div class="layui-field-box">
+               <table id="checkedTable"></table>
+            </div>
+          </fieldset>
+  </div>
+  <div class="layui-col-md2" style="text-align: center;">
+    <a class='layui-btn layui-btn-normal'  id="uncheck_btn" >移出该角色</a>
+    <a class='layui-btn layui-btn-warm'  id="check_btn" >加入该角色</a>
+  </div>
+  <div class="layui-col-md5">
+      <div class="layui-row">
+          <fieldset class="layui-elem-field" >
+            <legend>非本角色用户列表</legend>
+            <div class="layui-field-box">
+                <table id="uncheckedTable"></table>
+            </div>
+          </fieldset>
+      </div>
+  </div>
+</div>
+{/block}
+{block name="script"}
+  layui.use(['table','jquery'], function () {
+        var table = layui.table,
+          $ = layui.jquery
+
+          //第一个实例
+       table.render({
+          elem: '#checkedTable'
+          ,height:'full'
+           ,url:"{:\\think\\Url::build('checkedTable')}?id={$role_id}"
+          ,cols: [[
+            {type:'checkbox'}
+            ,{field:'id', title: 'ID', sort: true,align:'center'}
+            , {field:'account',  title: '名称',align:'center'}
+          ]]
+          ,id:'checkedData'
+          ,page: true
+        });
+
+        table.render({
+          elem: '#uncheckedTable'
+          ,height:'full'
+          ,url:"{:\\think\\Url::build('uncheckedTable')}?id={$role_id}"
+          ,cols: [[
+            {type:'checkbox'}
+            ,{field:'id', title: 'ID', sort: true,align:'center'}
+            , {field:'account',  title: '名称',align:'center'}
+          ]]
+          ,id:'uncheckedData'
+          ,page: true
+        }); 
+
+        $("#check_btn").click(function(){
+            getData('uncheckedData',1)
+        })
+        $("#uncheck_btn").click(function(){
+            getData('checkedData',0)
+        })
+
+        function getData(id,type){
+            var checkStatus = table.checkStatus(id)
+           ,data = checkStatus.data;
+
+           let data_arr = []
+            data.forEach(function(value){
+              data_arr.push(value['id'])
+            })
+            cycle_data("{:\\think\\Url::build('user',['role_id'=>$role_id])}?type="+type,data_arr)
+        }
+
+    })
+{/block}
+

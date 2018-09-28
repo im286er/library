@@ -1,0 +1,59 @@
+{extend name="template/base" /}
+{block name="content"}
+<div class="my-btn-box">
+  <span class="fl">{tag:menu /} </span>
+  <span class="fr">
+      <span class="layui-form-label">搜索条件：</span>
+      <div class="layui-input-inline">
+        <input  placeholder="请输入角色名称" class="layui-input" name="search" type="text">
+      </div>
+      <button class="layui-btn mgl-20" id="search_btn">查询</button>
+            
+  </span>
+</div>
+<table id="table"></table>
+<script type="text/html" id="bar">
+  {tag:menu option="saccess,sedit,sisdelete,suser" /}
+</script>
+{/block}
+{block name="script"}
+  layui.use(['table','jquery'], function () {
+        var table = layui.table,
+          $ = layui.jquery
+
+          //第一个实例
+       table.render({
+          elem: '#table'
+          ,height:'full'
+          ,cellMinWidth: 100
+          ,url:"{:\\think\\Request::instance()->action()}"
+          ,cols: [[
+            {type:'checkbox'}
+            ,{field:'id', title: 'ID', sort: true,align:'center'}
+            , {field:'name',  title: '名称',align:'center'}
+            , {field:'status',  title: '状态', sort: true,align:'center',templet:function(d){
+                if(d.status==1){
+                  return "<i class='layui-icon layui-icon-face-smile'></i>"
+                }else{
+                  return "<i class='layui-icon layui-icon-face-cry' style='color: red'></i>"
+                }
+            }}
+            ,{title:'操作', toolbar: '#bar',align:'center'}
+          ]]
+          ,id:'checkData'
+          ,page: true
+        });
+
+        $("#search_btn").click(function(){
+            table.reload('checkData', {
+              page: {
+                curr: 1 //重新从第 1 页开始
+              }
+              ,where: {
+                  name:$("[name='search']").val()
+              }
+            });
+        })
+
+    });
+{/block}

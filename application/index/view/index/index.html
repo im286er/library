@@ -1,0 +1,66 @@
+{extend name="template/base" /}
+{block name="content"}
+<div class="layui-container">
+  <div class="layui-row ">
+    <div class="layui-col-md12">
+        <div class="layui-container">
+        <div class="layui-row layui-col-space15">
+          <div class="layui-col-md8">
+              <div class="fly-panel">
+                <div class="fly-panel-title fly-filter">
+                  <a>Aeticle</a>
+                </div>
+                <ul class="fly-list">
+                  {volist name="articles" id="value"}
+                       <li>
+                          <h2>
+                            <a class="layui-badge">{$value.label_id}</a>
+                            <a href="{:\\think\\Url::build('Index/detail',['detail'=>$value['id']])}">{$value.name}</a>
+                          </h2>
+                          <div class="fly-list-info">
+                            <a href="javascript::" link>
+                              <cite>{$value.author_id}</cite>
+                            </a>
+                            <span>{$value.create_time}</span>
+                            <span class="fly-list-nums"> 
+                              <i class="iconfont icon-yulan"></i> {$value.read_account}
+                          </div>
+                          <div class="fly-list-badge">
+                          </div>
+                        </li>
+                  {/volist}
+                </ul>
+                {$articles->render()}
+              </div>
+          </div>
+          
+          <div class="layui-col-md4">
+            <div class="fly-panel">
+              <h3 class="fly-panel-title">本周热议</h3>
+              <ul class="fly-panel-main fly-list-static">
+                {volist name="hot_article" id="value"}
+                    <li>
+                      <a  href="{:\\think\\Url::build('Index/detail',['detail'=>$value['id']])}">{$value.name}
+                      <span><i class="iconfont icon-yulan"></i>{$value.read_account}</span></a>
+                    </li>
+                {/volist}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{/block}
+{block name="script"}
+  layui.use(['element','jquery'],function(){
+      var element = layui.element
+      var $ = layui.jquery
+
+      $(function(){
+        $(".layui-tab-title li:first").addClass('layui-this');
+       $(".layui-tab-content div:first").addClass('layui-show');
+      })
+  })
+{/block}

@@ -1,0 +1,79 @@
+{extend name="template/base" /}
+{block name="style"}
+ {load href="__FRAME__/zTree/css/zTreeStyle/zTreeStyle.css"}
+ {load href="__FRAME__/zTree/js/jquery.ztree.core.js"}
+ {load href="__FRAME__/zTree/js/jquery.ztree.excheck.js"}
+{/block}
+{block name="content"}
+<div class="my-btn-box">
+  <span class="fl">
+    <a class='layui-btn layui-btn-normal' onclick="sub_data('{:\\think\\Url::build('forbid')}')" >禁用</a>
+    <a class='layui-btn layui-btn-warm' onclick="sub_data('{:\\think\\Url::build('normal')}')" >正常</a>
+  </span>
+</div>
+<div class="layui-row ">
+    <div class="layui-col-md4">
+          <fieldset class="layui-elem-field">
+            <legend>节点树</legend>
+            <div class="layui-field-box" style="height: 300px;overflow-y: auto;">
+               <ul id="treeDemo" class="ztree"></ul>
+            </div>
+          </fieldset>
+  </div>
+  <div class="layui-col-md6 layui-col-md-offset2">
+      <div class="layui-row">
+          <fieldset class="layui-elem-field" >
+            <legend>模块</legend>
+            <div class="layui-field-box" style="height: 100px;overflow-y: auto;">
+                {volist name="modules" id="value"}
+                  <blockquote class="layui-elem-quote">
+                      <a href="{:\\think\\Request::instance()->baseUrl()}?module_id={$value.id}">{$value.title}</a>
+                  </blockquote>
+                {/volist}
+            </div>
+          </fieldset>
+      </div>
+      <div class="layui-row">
+         <fieldset class="layui-elem-field">
+            <legend>分组</legend>
+            <div class="layui-field-box" style="height: 150px;overflow-y: auto;">
+                 {volist name="groups" id="value"}
+                  <blockquote class="layui-elem-quote" >
+                      <a href="{:\\think\\Request::instance()->baseUrl()}?group_id={$value.id}"><i class="layui-icon {$value.icon}"></i>{$value.name}</a>
+                  </blockquote>
+                {/volist}
+            </div>
+          </fieldset>
+      </div>
+  </div>
+</div>
+{/block}
+{block name="script"}
+let treeObj =null
+layui.use(['jquery'],function(){
+  var $ = layui.jquery
+
+   var setting = {
+          check: {
+            enable: true
+          },
+          data: {
+            simpleData: {
+              enable: true
+            }
+          }
+        };
+        var zNodes ={$nodes};
+       treeObj = $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+})
+
+function sub_data(url){
+          var nodes=treeObj.getCheckedNodes(true);
+          let id_arr = []
+          nodes.forEach(function(item){
+            id_arr.push(item.id)
+          })
+          cycle_data(url,id_arr)
+}
+{/block}
+

@@ -1,0 +1,19 @@
+{extend name="template/base" /}
+{block name="content"}
+<style type="text/css">
+  img{
+    width: 100%
+  }
+</style>
+<div class="layui-container">
+  <div class="layui-row ">
+    <div class="layui-col-md12" style="padding: 5px">
+    <h1>{$info.name}</h1>
+    <hr class="layui-bg-green">
+    <div style="line-height: 30px">
+    	{$info.content}
+    </div>
+    </div>
+  </div>
+</div>
+{/block}

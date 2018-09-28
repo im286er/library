@@ -1,0 +1,2062 @@
+---------------------------------------------------------------
+[ 2018-09-28T02:11:24+08:00 ] 177.68.128.26 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001415s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000563s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000148s ]
+---------------------------------------------------------------
+[ 2018-09-28T02:22:00+08:00 ] 158.181.24.84 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001316s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000557s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000161s ]
+---------------------------------------------------------------
+[ 2018-09-28T02:46:46+08:00 ] 189.90.197.173 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000632s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000180s ]
+---------------------------------------------------------------
+[ 2018-09-28T02:56:31+08:00 ] 60.191.38.77 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000629s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000150s ]
+---------------------------------------------------------------
+[ 2018-09-28T03:27:42+08:00 ] 95.143.133.67 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000634s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001422s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000157s ]
+---------------------------------------------------------------
+[ 2018-09-28T03:43:28+08:00 ] 47.92.122.11 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001684s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+---------------------------------------------------------------
+[ 2018-09-28T03:53:08+08:00 ] 139.162.102.14 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000669s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001342s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000179s ]
+---------------------------------------------------------------
+[ 2018-09-28T03:58:32+08:00 ] 172.104.108.109 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000629s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001299s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000161s ]
+---------------------------------------------------------------
+[ 2018-09-28T04:17:35+08:00 ] 47.92.101.29 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000601s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001283s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+---------------------------------------------------------------
+[ 2018-09-28T04:41:37+08:00 ] 47.100.1.70 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000672s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.002252s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+---------------------------------------------------------------
+[ 2018-09-28T05:40:18+08:00 ] 139.162.119.197 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000668s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000618s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+---------------------------------------------------------------
+[ 2018-09-28T06:09:46+08:00 ] 203.208.60.11 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000159s ]
+---------------------------------------------------------------
+[ 2018-09-28T07:04:07+08:00 ] 219.234.81.24 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.002344s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000165s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000162s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000163s ]
+---------------------------------------------------------------
+[ 2018-09-28T07:39:45+08:00 ] 189.78.239.185 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000636s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001317s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000144s ]
+---------------------------------------------------------------
+[ 2018-09-28T08:00:46+08:00 ] 101.132.182.68 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000652s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000155s ]
+---------------------------------------------------------------
+[ 2018-09-28T08:34:56+08:00 ] 107.170.202.114 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000623s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001328s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000155s ]
+---------------------------------------------------------------
+[ 2018-09-28T12:32:05+08:00 ] 60.191.52.254 HEAD http://112.124.42.80:63435/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000566s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000151s ]
+---------------------------------------------------------------
+[ 2018-09-28T13:53:17+08:00 ] 117.111.28.142 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001306s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+---------------------------------------------------------------
+[ 2018-09-28T14:05:46+08:00 ] 180.76.15.144 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000640s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000171s ]
+---------------------------------------------------------------
+[ 2018-09-28T14:17:37+08:00 ] 206.189.1.65 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000592s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+---------------------------------------------------------------
+[ 2018-09-28T14:17:38+08:00 ] 206.189.1.65 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000166s ]
+---------------------------------------------------------------
+[ 2018-09-28T14:41:59+08:00 ] 211.36.139.186 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000673s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001359s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000576s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000148s ]
+---------------------------------------------------------------
+[ 2018-09-28T15:46:39+08:00 ] 125.212.217.214 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000620s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001635s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000163s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000843s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000161s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000176s ]
+---------------------------------------------------------------
+[ 2018-09-28T16:33:28+08:00 ] 91.116.136.138 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000627s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000771s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000168s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000226s ]
+---------------------------------------------------------------
+[ 2018-09-28T16:39:58+08:00 ] 185.215.232.22 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000648s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001418s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000148s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:08:41+08:00 ] 203.93.18.117 GET /
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000687s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000800s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000167s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000160s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000237s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:13:17+08:00 ] 203.93.18.117 POST /admin/pub/checklogin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000671s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT `id`,`realname`,`password`,`last_login_time` FROM `lib_admin_user` WHERE  `status` = 1  AND `account` = 'admin' LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] UPDATE `lib_admin_user`  SET `login_account`=login_account+1,`last_login_time`=1538125997  WHERE  `id` = 1 [ RunTime:0.013677s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:13:17+08:00 ] 203.93.18.117 GET /admin/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000664s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_node` [ RunTime:0.040624s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`group_id`,`name`,`title` FROM `lib_node` WHERE  `status` = 1  AND `isdelete` = 0  AND `group_id` > 0 ORDER BY `sort`,`id` [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_group` [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`icon` FROM `lib_admin_group` WHERE  `status` = 1  AND `isdelete` = 0  AND `id` IN (1,2) [ RunTime:0.000213s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:13:22+08:00 ] 203.93.18.117 GET /admin/admin_group/index?page=1&limit=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000683s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_group` [ RunTime:0.001310s ]
+[ sql ] [ SQL ] SELECT * FROM `lib_admin_group` WHERE  `isdelete` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_admin_group` WHERE  `isdelete` = 0 LIMIT 1 [ RunTime:0.000205s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:13:24+08:00 ] 203.93.18.117 GET /admin/admin_role/index?page=1&limit=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000747s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_role` [ RunTime:0.001315s ]
+[ sql ] [ SQL ] SELECT * FROM `lib_admin_role` WHERE  `isdelete` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_admin_role` WHERE  `isdelete` = 0 LIMIT 1 [ RunTime:0.000171s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:13:26+08:00 ] 203.93.18.117 GET /admin/node/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000669s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_node` [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT id,pid,group_id,name,title,status FROM `lib_node` ORDER BY `sort`,`id` [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_group` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`icon` FROM `lib_admin_group` WHERE  `id` IN (1,2) [ RunTime:0.000213s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:13:31+08:00 ] 203.93.18.117 GET /admin/label_list/index?page=1&limit=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000756s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001303s ]
+[ sql ] [ SQL ] SELECT * FROM `lib_label_list` WHERE  `isdelete` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_list` WHERE  `isdelete` = 0 LIMIT 1 [ RunTime:0.000172s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:13:33+08:00 ] 203.93.18.117 GET /admin/label_article/index?page=1&limit=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000700s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT * FROM `lib_label_article` WHERE  `isdelete` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `isdelete` = 0 LIMIT 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000157s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000151s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000149s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000170s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000144s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000173s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:13:41+08:00 ] 203.93.18.117 GET /index/index/index.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000677s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001367s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000154s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:13:45+08:00 ] 203.93.18.117 GET /index/index/index/label_id/1.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000681s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` = 1 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` = 1 ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000159s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000152s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000155s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:13:46+08:00 ] 203.93.18.117 GET /index/index/index/label_id/2.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000621s ] mysql:host=127.0.0.1;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.001379s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` = 2 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` = 2 ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000786s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000153s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000150s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000218s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:00+08:00 ] 127.0.0.1 GET /
+[ info ] www.tp.cn/ [运行时间：0.030699s][吞吐率：32.57req/s] [内存消耗：637.36kb] [文件加载：63]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/www/www.tp.cn/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'hot_article',
+  2 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000817s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000869s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000141s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:02+08:00 ] 127.0.0.1 GET /index/index/detail/detail/8.html
+[ info ] www.tp.cn/index/index/detail/detail/8.html [运行时间：0.018491s][吞吐率：54.08req/s] [内存消耗：412.48kb] [文件加载：58]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'detail' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->detail[ /data/www/www.tp.cn/application/index/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/index/view/index/detail.html [ array (
+  0 => 'menus',
+  1 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000279s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`content` FROM `lib_label_article` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] UPDATE `lib_label_article`  SET `read_account`=`read_account`+1  WHERE  `id` = 8 [ RunTime:0.000473s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:04+08:00 ] 127.0.0.1 GET /index/index/index/label_id/1.html
+[ info ] www.tp.cn/index/index/index/label_id/1.html [运行时间：0.020312s][吞吐率：49.23req/s] [内存消耗：593.96kb] [文件加载：61]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'label_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/www/www.tp.cn/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'hot_article',
+  2 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000362s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000894s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` = 1 LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` = 1 ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000177s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000166s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000170s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:06+08:00 ] 127.0.0.1 GET /index/index/index/label_id/2.html
+[ info ] www.tp.cn/index/index/index/label_id/2.html [运行时间：0.021024s][吞吐率：47.56req/s] [内存消耗：592.87kb] [文件加载：61]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; article_8=1',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'label_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/www/www.tp.cn/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'hot_article',
+  2 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000270s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` = 2 LIMIT 1 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` = 2 ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.001304s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000207s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:08+08:00 ] 127.0.0.1 GET /index/index/detail/detail/5.html
+[ info ] www.tp.cn/index/index/detail/detail/5.html [运行时间：0.014190s][吞吐率：70.47req/s] [内存消耗：414.94kb] [文件加载：56]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; article_8=1',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'detail' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->detail[ /data/www/www.tp.cn/application/index/controller/Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/index/view/index/detail.html [ array (
+  0 => 'menus',
+  1 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000298s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`content` FROM `lib_label_article` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] UPDATE `lib_label_article`  SET `read_account`=`read_account`+1  WHERE  `id` = 5 [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:12+08:00 ] 127.0.0.1 GET /index/index/detail/detail/8.html
+[ info ] www.tp.cn/index/index/detail/detail/8.html [运行时间：0.014391s][吞吐率：69.49req/s] [内存消耗：427.29kb] [文件加载：54]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; article_8=1; article_5=1',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'detail' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->detail[ /data/www/www.tp.cn/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/index/view/index/detail.html [ array (
+  0 => 'menus',
+  1 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`content` FROM `lib_label_article` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:20+08:00 ] 127.0.0.1 GET /admin
+[ info ] www.tp.cn/admin [运行时间：0.009927s][吞吐率：100.74req/s] [内存消耗：247.41kb] [文件加载：47]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T17:46:20+08:00 ] 127.0.0.1 GET /admin/pub/login.html
+[ info ] www.tp.cn/admin/pub/login.html [运行时间：0.010918s][吞吐率：91.59req/s] [内存消耗：278.09kb] [文件加载：51]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Pub->login[ /data/www/www.tp.cn/application/admin/controller/Pub.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/admin/view/pub/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T17:46:28+08:00 ] 127.0.0.1 POST /admin/pub/checklogin.html
+[ info ] www.tp.cn/admin/pub/checklogin.html [运行时间：0.010941s][吞吐率：91.40req/s] [内存消耗：378.84kb] [文件加载：57]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pub',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/pub/login.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '29',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Pub->checkLogin[ /data/www/www.tp.cn/application/admin/controller/Pub.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000290s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT `id`,`realname`,`password`,`last_login_time` FROM `lib_admin_user` WHERE  `status` = 1  AND `account` = 'admin' LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] UPDATE `lib_admin_user`  SET `login_account`=login_account+1,`last_login_time`=1538127988  WHERE  `id` = 1 [ RunTime:0.000551s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:28+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ info ] www.tp.cn/admin/index/index.html [运行时间：0.020702s][吞吐率：48.30req/s] [内存消耗：462.68kb] [文件加载：59]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/pub/login.html',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /data/www/www.tp.cn/application/admin/controller/Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/admin/view/index/index.html [ array (
+  0 => 'groups',
+  1 => 'menus',
+) ]
+[ info ] [ RUN ] app\admin\widget\Index->index[ /data/www/www.tp.cn/application/admin/widget/Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->index[ /data/www/www.tp.cn/application/admin/widget/Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->index[ /data/www/www.tp.cn/application/admin/widget/Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->index[ /data/www/www.tp.cn/application/admin/widget/Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->index[ /data/www/www.tp.cn/application/admin/widget/Index.php ]
+[ info ] [ RUN ] app\admin\widget\Index->index[ /data/www/www.tp.cn/application/admin/widget/Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000369s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_node` [ RunTime:0.001111s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`group_id`,`name`,`title` FROM `lib_node` WHERE  `status` = 1  AND `isdelete` = 0  AND `group_id` > 0 ORDER BY `sort`,`id` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_group` [ RunTime:0.001225s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`icon` FROM `lib_admin_group` WHERE  `status` = 1  AND `isdelete` = 0  AND `id` IN (1,2) [ RunTime:0.000349s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:28+08:00 ] 127.0.0.1 GET /admin/index/welcome.html
+[ info ] www.tp.cn/admin/index/welcome.html [运行时间：0.015073s][吞吐率：66.34req/s] [内存消耗：276.95kb] [文件加载：51]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/index/index.html',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ /data/www/www.tp.cn/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/admin/view/index/welcome.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T17:46:32+08:00 ] 127.0.0.1 GET /admin/admin_group/index.html
+[ info ] www.tp.cn/admin/admin_group/index.html [运行时间：0.012802s][吞吐率：78.11req/s] [内存消耗：285.46kb] [文件加载：53]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin_group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/index/index.html',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AdminGroup->index[ /data/www/www.tp.cn/application/admin/traits/controller/Controller.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/admin/view/admin_group/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T17:46:33+08:00 ] 127.0.0.1 GET /admin/admin_group/index?page=1&limit=10
+[ info ] www.tp.cn/admin/admin_group/index?page=1&limit=10 [运行时间：0.011441s][吞吐率：87.41req/s] [内存消耗：424.84kb] [文件加载：55]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin_group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/admin_group/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AdminGroup->index[ /data/www/www.tp.cn/application/admin/traits/controller/Controller.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000344s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_group` [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SELECT * FROM `lib_admin_group` WHERE  `isdelete` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_admin_group` WHERE  `isdelete` = 0 LIMIT 1 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:33+08:00 ] 127.0.0.1 GET /admin/node/index.html
+[ info ] www.tp.cn/admin/node/index.html [运行时间：0.018512s][吞吐率：54.02req/s] [内存消耗：455.55kb] [文件加载：58]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'node',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/index/index.html',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Node->index[ /data/www/www.tp.cn/application/admin/controller/Node.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/admin/view/node/index.html [ array (
+  0 => 'modules',
+  1 => 'groups',
+  2 => 'nodes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000347s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_node` [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SELECT id,pid,group_id,name,title,status FROM `lib_node` ORDER BY `sort`,`id` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_group` [ RunTime:0.000836s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`icon` FROM `lib_admin_group` WHERE  `id` IN (1,2) [ RunTime:0.000397s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:34+08:00 ] 127.0.0.1 GET /admin/admin_user/index.html
+[ info ] www.tp.cn/admin/admin_user/index.html [运行时间：0.016822s][吞吐率：59.45req/s] [内存消耗：284.05kb] [文件加载：53]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin_user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/index/index.html',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AdminUser->index[ /data/www/www.tp.cn/application/admin/traits/controller/Controller.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/admin/view/admin_user/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T17:46:34+08:00 ] 127.0.0.1 GET /admin/admin_user/index?page=1&limit=10
+[ info ] www.tp.cn/admin/admin_user/index?page=1&limit=10 [运行时间：0.009598s][吞吐率：104.19req/s] [内存消耗：425.08kb] [文件加载：55]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin_user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/admin_user/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AdminUser->index[ /data/www/www.tp.cn/application/admin/traits/controller/Controller.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000335s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SELECT * FROM `lib_admin_user` WHERE  `isdelete` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_admin_user` WHERE  `isdelete` = 0 LIMIT 1 [ RunTime:0.000554s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:34+08:00 ] 127.0.0.1 GET /admin/admin_role/index.html
+[ info ] www.tp.cn/admin/admin_role/index.html [运行时间：0.013702s][吞吐率：72.98req/s] [内存消耗：284.87kb] [文件加载：53]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin_role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/index/index.html',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AdminRole->index[ /data/www/www.tp.cn/application/admin/traits/controller/Controller.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/admin/view/admin_role/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T17:46:35+08:00 ] 127.0.0.1 GET /admin/admin_role/index?page=1&limit=10
+[ info ] www.tp.cn/admin/admin_role/index?page=1&limit=10 [运行时间：0.008591s][吞吐率：116.40req/s] [内存消耗：424.70kb] [文件加载：55]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin_role',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/admin_role/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AdminRole->index[ /data/www/www.tp.cn/application/admin/traits/controller/Controller.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000293s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_role` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT * FROM `lib_admin_role` WHERE  `isdelete` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_admin_role` WHERE  `isdelete` = 0 LIMIT 1 [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:37+08:00 ] 127.0.0.1 GET /admin/label_list/index.html
+[ info ] www.tp.cn/admin/label_list/index.html [运行时间：0.010035s][吞吐率：99.65req/s] [内存消耗：284.37kb] [文件加载：53]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'label_list',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/index/index.html',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\LabelList->index[ /data/www/www.tp.cn/application/admin/traits/controller/Controller.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/admin/view/label_list/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T17:46:37+08:00 ] 127.0.0.1 GET /admin/label_list/index?page=1&limit=10
+[ info ] www.tp.cn/admin/label_list/index?page=1&limit=10 [运行时间：0.008213s][吞吐率：121.76req/s] [内存消耗：424.37kb] [文件加载：55]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'label_list',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/label_list/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\LabelList->index[ /data/www/www.tp.cn/application/admin/traits/controller/Controller.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000395s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000852s ]
+[ sql ] [ SQL ] SELECT * FROM `lib_label_list` WHERE  `isdelete` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_list` WHERE  `isdelete` = 0 LIMIT 1 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:41+08:00 ] 127.0.0.1 GET /admin/label_article/index.html
+[ info ] www.tp.cn/admin/label_article/index.html [运行时间：0.011539s][吞吐率：86.66req/s] [内存消耗：285.63kb] [文件加载：53]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'label_article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/index/index.html',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\LabelArticle->index[ /data/www/www.tp.cn/application/admin/traits/controller/Controller.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/admin/view/label_article/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T17:46:42+08:00 ] 127.0.0.1 GET /admin/label_article/index?page=1&limit=10
+[ info ] www.tp.cn/admin/label_article/index?page=1&limit=10 [运行时间：0.023194s][吞吐率：43.11req/s] [内存消耗：541.66kb] [文件加载：57]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'label_article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/label_article/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\LabelArticle->index[ /data/www/www.tp.cn/application/admin/traits/controller/Controller.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000397s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000928s ]
+[ sql ] [ SQL ] SELECT * FROM `lib_label_article` WHERE  `isdelete` = 0 ORDER BY `id` DESC LIMIT 0,10 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `isdelete` = 0 LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000913s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000245s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:46:46+08:00 ] 127.0.0.1 POST /admin/pub/logout.html
+[ info ] www.tp.cn/admin/pub/logout.html [运行时间：0.006412s][吞吐率：155.96req/s] [内存消耗：245.57kb] [文件加载：45]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pub',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/index/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Pub->logout[ /data/www/www.tp.cn/application/admin/controller/Pub.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T17:46:46+08:00 ] 127.0.0.1 GET /admin/pub/login.html
+[ info ] www.tp.cn/admin/pub/login.html [运行时间：0.011398s][吞吐率：87.74req/s] [内存消耗：263.21kb] [文件加载：48]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'pub',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/admin/index/index.html',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Pub->login[ /data/www/www.tp.cn/application/admin/controller/Pub.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/admin/view/pub/login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-28T17:46:50+08:00 ] 127.0.0.1 GET /
+[ info ] www.tp.cn/ [运行时间：0.022134s][吞吐率：45.18req/s] [内存消耗：608.38kb] [文件加载：61]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/www/www.tp.cn/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'hot_article',
+  2 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000333s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000293s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:47:12+08:00 ] 127.0.0.1 GET /
+[ info ] www.tp.cn/ [运行时间：0.020300s][吞吐率：49.26req/s] [内存消耗：608.38kb] [文件加载：61]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/www/www.tp.cn/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'hot_article',
+  2 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000325s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000138s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000145s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000129s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000132s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:47:13+08:00 ] 127.0.0.1 GET /
+[ info ] www.tp.cn/ [运行时间：0.024832s][吞吐率：40.27req/s] [内存消耗：608.38kb] [文件加载：61]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/www/www.tp.cn/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'hot_article',
+  2 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000297s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.001693s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000155s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000226s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:47:13+08:00 ] 127.0.0.1 GET /
+[ info ] www.tp.cn/ [运行时间：0.022544s][吞吐率：44.36req/s] [内存消耗：608.38kb] [文件加载：61]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/www/www.tp.cn/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'hot_article',
+  2 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000311s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000146s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000143s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000148s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000134s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000133s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:47:14+08:00 ] 127.0.0.1 GET /
+[ info ] www.tp.cn/ [运行时间：0.020521s][吞吐率：48.73req/s] [内存消耗：608.38kb] [文件加载：61]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/www/www.tp.cn/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'hot_article',
+  2 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000292s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000136s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000223s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:47:15+08:00 ] 127.0.0.1 GET /index/index/detail/detail/8.html
+[ info ] www.tp.cn/index/index/detail/detail/8.html [运行时间：0.014125s][吞吐率：70.80req/s] [内存消耗：427.34kb] [文件加载：54]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp.cn/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; article_8=1; article_5=1; PHPSESSID=605e1c34a72f2417d61623c9f6fe4e60',
+  'dnt' => '1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'detail' => '8',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->detail[ /data/www/www.tp.cn/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/index/view/index/detail.html [ array (
+  0 => 'menus',
+  1 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000338s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`content` FROM `lib_label_article` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000426s ]
+---------------------------------------------------------------
+[ 2018-09-28T17:47:34+08:00 ] 127.0.0.1 GET /
+[ info ] www.tp.cn/ [运行时间：0.024320s][吞吐率：41.12req/s] [内存消耗：608.27kb] [文件加载：61]
+[ info ] [ LANG ] /data/www/www.tp.cn/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.cn',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=6404631552; thinkphp_show_page_trace=0|1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /data/www/www.tp.cn/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /data/www/www.tp.cn/public/../application/index/view/index/index.html [ array (
+  0 => 'menus',
+  1 => 'hot_article',
+  2 => 'articles',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000281s ] mysql:host=localhost;dbname=lib;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_list` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_label_article` [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account` FROM `lib_label_article` WHERE  `status` = 1  AND `isdelete` = 0 ORDER BY `read_account` DESC,`id` LIMIT 5 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lib_label_list` WHERE  `status` = 1  AND `isdelete` = 0 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lib_label_article` WHERE  `label_id` IN (1,2) LIMIT 1 [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`read_account`,`label_id`,`author_id`,`create_time` FROM `lib_label_article` WHERE  `label_id` IN (1,2) ORDER BY `create_time` DESC LIMIT 0,5 [ RunTime:0.001223s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lib_admin_user` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lib_label_list` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT `account` FROM `lib_admin_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000274s ]

@@ -1,0 +1,81 @@
+{extend name="template/base" /}
+{block name="content"}
+    <form class="layui-form layui-form-pane">
+      <input type="hidden" name="id" value="{$info.id|default=0}">
+      <input type="hidden" name="author_id" value="{$info.author_id?$info->getData('author_id'):UID}">
+     
+        <div class="layui-form-item">
+        <label class="layui-form-label">栏目</label>
+        <div class="layui-input-inline">
+          <select name="label_id" lay-verify="required">
+            {volist name="parent_nodes" id="value"}
+              <option value="{$value.id}">{$value.name}</option>
+            {/volist}
+          </select>
+        </div>
+      </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">标题:</label>
+            <div class="layui-input-block">
+                <input type="text" name="name" class="layui-input" required lay-verify="required" placeholder="标题" autocomplete="on" maxlength="255" value="{$info.name|default=''}"/>
+            </div> 
+        </div>
+          <div class="layui-form-item layui-form-text">
+            <label class="layui-form-label">文章简介</label>
+            <div class="layui-input-block">
+              <textarea name="remark" placeholder="请输入内容" maxlength="255" required lay-verify="required" class="layui-textarea">{$info.remark|default=''}</textarea>
+            </div>
+          </div>
+          <div class="layui-form-item layui-form-text">
+            <label class="layui-form-label">内容:</label>
+            <div class="layui-input-block">
+                <textarea  id="article" style="display: none;" >{$info.content|default=''}</textarea>
+            </div>
+        </div>
+          <div class="layui-form-item">
+          <label class="layui-form-label">状态:</label>
+          <div class="layui-input-block">
+            <input type="radio" name="status" value="1" title="正常">
+            <input type="radio" name="status" value="0" title="禁用">
+          </div>
+      </div>
+        <div class="layui-form-item">
+            <button style="width: 100%" type="button" class="layui-btn btn-submit" lay-submit lay-filter="sub_info">确定</button>
+        </div>
+    </form>
+{/block}
+{block name="script"}
+  layui.use(['form','layedit'], function () {
+
+        // 操作对象
+        var form = layui.form,
+          $ = layui.jquery,
+         layedit = layui.layedit
+
+          layedit.set({
+            uploadImage: {
+              url: "{:\\think\\Url::build('article_upload')}"
+            }
+          });
+        let edit =  layedit.build('article'); //建立编辑器
+
+        $("[name='status'][value=<?php echo isset($info)?($info['status']?1:0):1 ?>]").attr('checked',true)
+        $("[name='label_id']").val({$info.label_id ?$info->getData('label_id') :''})
+
+       
+        form.render()
+
+       form.on('submit(sub_info)',function(data){
+          let form_data = data.field
+          form_data.content = layedit.getContent(edit)
+          delete form_data.file
+
+          $.post("{:\\think\\Request::instance()->action()}",form_data,function(res){
+            ajax_process(res);
+          })
+          return false;
+       })
+
+    });
+{/block}
+

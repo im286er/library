@@ -1,0 +1,37 @@
+{extend name="template/base" /}
+{block name="content"}
+<div class="login-main">
+    <header class="layui-elip">后台登录</header>
+    <form class="layui-form">
+        <div class="layui-input-inline">
+            <input type="text" name="account" required lay-verify="required" placeholder="帐号" autocomplete="off"
+                   class="layui-input">
+        </div>
+        <div class="layui-input-inline">
+            <input type="password" name="password" required lay-verify="required" placeholder="密码" autocomplete="off"
+                   class="layui-input">
+        </div>
+        <div class="layui-input-inline login-btn">
+            <button lay-submit  lay-filter='login_btn' class="layui-btn">登录</button>
+        </div>
+        <hr/>
+    </form>
+</div>
+{/block}
+{block name="script"}
+layui.use(['form','layer'], function () {
+
+        // 操作对象
+        var form = layui.form
+                , $ = layui.jquery
+                ,layer = layui.layer
+
+       form.on('submit(login_btn)',function(data){
+          $.post("{:\\think\\Url::build('Pub/checkLogin')}",data.field,function(res){
+            ajax_process(res);
+          })
+          return false;
+       })
+
+    });
+{/block}

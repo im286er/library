@@ -1,0 +1,55 @@
+{extend name="template/base" /}
+{block name="style"}
+ {load href="__FRAME__/zTree/css/zTreeStyle/zTreeStyle.css"}
+ {load href="__FRAME__/zTree/js/jquery.ztree.core.js"}
+ {load href="__FRAME__/zTree/js/jquery.ztree.excheck.js"}
+{/block}
+{block name="content"}
+<div class="my-btn-box">
+  <span class="fl">
+    <a class='layui-btn layui-btn-normal' onclick="sub_data('{:\\think\\Request::instance()->action()}?role_id={$role_id}')">确定</a>
+  </span>
+</div>
+<div class="layui-row ">
+    <div class="layui-col-md12">
+          <fieldset class="layui-elem-field">
+            <legend>节点树</legend>
+            <div class="layui-field-box">
+               <ul id="treeDemo" class="ztree"></ul>
+            </div>
+          </fieldset>
+  </div>
+</div>
+{/block}
+{block name="script"}
+let treeObj =null
+layui.use(['jquery'],function(){
+  var $ = layui.jquery
+
+   var setting = {
+          check: {
+            enable: true
+          },
+          data: {
+            simpleData: {
+              enable: true
+            }
+          }
+        };
+        var zNodes ={$nodes};
+       treeObj = $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+})
+
+function sub_data(url){
+          var nodes=treeObj.getCheckedNodes(true);
+          let id_arr = []
+          nodes.forEach(function(item){
+            id_arr.push(item.id)
+          })
+          checked_str = id_arr.join(',')
+          $.post(url,{'checked_str':checked_str},function(res){
+              ajax_process(res)
+          })
+}
+{/block}
+
