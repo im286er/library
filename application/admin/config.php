@@ -1,8 +1,5 @@
 <?php
-$rootname = \think\Request::instance()->root();
-if (pathinfo($rootname, PATHINFO_EXTENSION) == 'php') {
-    $rootname = dirname($rootname);
-}
+$rootname = \think\Request::instance()->host();
 
 return [
 	'template'=>	[
@@ -16,8 +13,8 @@ return [
 		'taglib_pre_load'=>'app\\admin\\taglib\\Tag',	
 	],
 	'view_replace_str'=>[
-		'__FRAME__'=>$rootname.'/static/admin/frame',
-		'__JS__'=>$rootname.'/static/admin/js',
+		'__FRAME__'=>'/static/admin/frame',
+		'__JS__'=>'/static/admin/js',
 	],
 	// 异常处理 handle 类 留空使用 \think\exception\Handle
     'exception_handle' => '\\TpException',
